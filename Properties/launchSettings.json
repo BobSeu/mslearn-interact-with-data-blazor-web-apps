@@ -10,7 +10,7 @@
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -18,8 +18,9 @@
     "BlazingPizza": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
-      "launchBrowser": true,
-      "applicationUrl": "http://localhost:5000",
+      "launchBrowser": false,
+      "requireExactSource": false,
+      "applicationUrl": "http://localhost:5682",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
